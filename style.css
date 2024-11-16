@@ -1,64 +1,3 @@
-/*
-Theme Name: HVAC
-Theme URI: https://templatesjungle.com/
-Author: TemplatesJungle
-Author URI: https://templatesjungle.com/
-Description: HVAC is specially designed product packaged for HVAC services by TemplatesJungle.
-Version: 1.1
-*/
-
-/*--------------------------------------------------------------
-This is main CSS file that contains custom style rules used in this template
---------------------------------------------------------------*/
-
-/*------------------------------------*\
-    Table of contents
-\*------------------------------------*/
-
-/*------------------------------------------------
-
-CSS STRUCTURE:
-
-1. VARIABLES
-
-2. GENERAL TYPOGRAPHY
-  2.1 General Styles
-  2.2 Background Color
-  2.3 Section
-    - Section Paddings
-    - Section Margins
-    - Section Title
-  2.4 Buttons
-    - Primary Buttons
-    - Button Hover Effect
-
-3. CONTENT ELEMENTS
-  - Dropdown
-  - Breadcrumb
-  - Pagination
-  - Accordion
-  - Form
-  - Swiper
-  - Modal Video
-
-4. SITE STRUCTURE
-  4.1 Header
-  4.2 Brand Section
-  4.3 About Section
-  4.4 Services Section
-  4.5 Project Section
-  4.6 CTA Section
-
-5. PAGES STYLE
-  5.1 Projects Page
-  5.2 Pricing page 
-  5.3 Reviews page
-    
-
-  
-/*--------------------------------------------------------------
-/** 1. VARIABLES
---------------------------------------------------------------*/
 :root {
   --primary-color: #f2b821;
   --secondary-color: #05213c;
@@ -84,13 +23,6 @@ CSS STRUCTURE:
   --heading-font: "Poppins", sans-serif;
   --body-font: "Poppins", sans-serif;
 }
-
-/*----------------------------------------------*/
-/* 2 GENERAL TYPOGRAPHY
-/*----------------------------------------------*/
-
-/* 2.1 General Styles
-/*----------------------------------------------*/
 *,
 *::before,
 *::after {
@@ -184,6 +116,9 @@ a:hover {
   .padding-small {
     padding-top: 6em;
     padding-bottom: 6em;
+  }
+  #billboard {
+    padding-top: 50px;
   }
 }
 
